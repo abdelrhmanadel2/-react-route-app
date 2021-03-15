@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+.img-bucket{
+  line-height: 380px;
+  max-height: 380px;
+}
+.img-bucket img{
+  max-height: 380px;
+}
+.card-titel{
+  height: 3.2142857143rem;
+}
+.card-text{
+  height: 7.2142857143rem;
+  overflow: hidden;
+}
