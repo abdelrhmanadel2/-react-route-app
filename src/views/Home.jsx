@@ -5,7 +5,7 @@ export const Home = (props) => {
     const [items, setItems] = useState([]);
     useEffect(() =>{
 const fetchproudects=async()=>{
-const res=await fetch('https://fakestoreapi.com/products') .then(res=>res.json()) .then(json=>setItems(json))
+const res=await fetch('https://fakestoreapi.herokuapp.com/products') .then(res=>res.json()) .then(json=>setItems(json))
 
 console.log(items)
 }

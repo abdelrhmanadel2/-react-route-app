@@ -7,7 +7,7 @@ export const proudect = ({item}) => {
     return (
         <div className="col-12 col-md-6  col-lg-4 h-100 py-3">
         <Card className="bg-transparent">
-           <Link to={`/proudect/${item.id}`} className="img-bucket">
+           <Link to={`/react-route-app/proudect/${item.id}`} className="img-bucket">
                
         <Card.Img className="img-fluid" variant="top" src={item.image} /></Link> 
         <Card.Body>

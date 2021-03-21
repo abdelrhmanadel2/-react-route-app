@@ -5,7 +5,7 @@ export const Proudectpageview = ({match}) => {
     const [item, setItem] = useState([]);
     useEffect(() =>{
 const fetchproudects=async()=>{
-const res=await fetch(`https://fakestoreapi.com/products/${match.params.id}`) .then(res=>res.json()) .then(json=>setItem(json))
+const res=await fetch(`https://fakestoreapi.herokuapp.com/products/${match.params.id}`) .then(res=>res.json()) .then(json=>setItem(json))
 
 
 }

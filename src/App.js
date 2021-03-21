@@ -18,9 +18,9 @@ function App() {
       <div className="container">
       
         <Switch>
-       <Route path="/" exact component={Home}/>
-       <Route path="/about" component={About}/>
-       <Route path="/proudect/:id" component={Proudectpageview} />
+       <Route path="/react-route-app" exact component={Home}/>
+       <Route path="/react-route-app/about" component={About}/>
+       <Route path="/react-route-app/proudect/:id" component={Proudectpageview} />
 
 </Switch>
 </div>      </header>

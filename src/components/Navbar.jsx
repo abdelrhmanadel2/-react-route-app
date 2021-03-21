@@ -9,12 +9,12 @@ export const Navbarcomp = () => {
     return (
         <Navbar bg="light" expand="lg">
             <Container>
-            <Link to="/"> <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand></Link>
+            <Link to="/react-route-app"> <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand></Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
-                    <Link to="/"><span className="nav-link">Home</span></Link> 
-                    <Link to="/about"> <span className="nav-link">about</span ></Link>
+                    <Link to="/react-route-app"><span className="nav-link">Home</span></Link> 
+                    <Link to="/react-route-app/about"> <span className="nav-link">about</span ></Link>
                     <NavDropdown title={<AccountCircleIcon fontSize="small"/>} className="d-none d-lg-block"  id="basic-nav-dropdown">
                         <NavDropdown.Item href="#action/3.1">info</NavDropdown.Item>
                         <NavDropdown.Divider />
